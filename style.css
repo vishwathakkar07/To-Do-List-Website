@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.container{
+    background:white;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width:500px;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#0952e4e6;
+    
+}
+
+.input-section{
+    
+    display:flex;
+    gap:10px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+    border:2px solid #189593ef;
+    border-radius:10px;
+    outline:none;
+}
+
+button{
+    text-align: center;
+    padding:12px 20px;
+    border:none;
+    background:#2544d1;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#5648c0;
+}
+
+ul{
+    margin-top:20px;
+    list-style:none;
+}
+
+li{
+    text-align: center;
+    background:#f4f4f4;
+    padding:12px;
+    margin-top:10px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    cursor:pointer;
+}
+
+li.completed{
+    text-align: center;
+    text-decoration: line-through;
+    color: gray;
+    background:#dcdcdc;
+}
+
+.delete{
+    text-align: center;
+    color:red;
+    font-weight:bold;
+    cursor: pointer;
+}   
+
+.timer-section{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+#timerDisplay{
+    
+    text-align:center;
+    margin-top: 20px;
+    color:#df4a47;
+    font-size:32px;
+}
+h2{
+
+    text-align:center;
+    margin-top: 20px;
+    color: rgb(177, 10, 10);
+}
